@@ -374,47 +374,43 @@
 </blockquote>
 <h2 id="6-代码"><a href="#6-代码" class="headerlink" title="6.代码"></a>6.代码</h2><h3 id="行内代码"><a href="#行内代码" class="headerlink" title="行内代码"></a>行内代码</h3><p>通过 &#96; 包裹单行代码。</p>
 <h3 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h3><p>通过 &#96;&#96;&#96; 包裹多行代码，可指定编程语言实现语法高亮。</p>
-<p>效果：</p>
-<pre><code class="language-python">def hello():
-    print(&quot;Hello Markdown&quot;)
-hello()&#39;&#39;&#39;
-
-## 7.引用
-
-通过 &gt; 表示引用，可嵌套多层引用（多个 &gt; 叠加）。
-效果：
-&gt; 这是一级引用
-&gt;&gt; 这是二级引用（嵌套在一级引用内）
-&gt;&gt;&gt; 这是三级引用
-
-## 8.表格
-通过 /| 分隔列，/- 分隔表头和内容，/: 控制对齐方式（左对齐、居中、右对齐）。
-&gt;**语法**：
-/| 姓名 /| 年龄 /| 职业 /|
-/| /:/-/-/- /| /:/-/-/-/: /| /-/-/-/: /|
-/| 张三 /| 25 /| 程序员 /|
-/| 李四 /| 30 /| 设计师 /|
-分别是左对齐、居中、右对齐。
-效果：
-| 姓名 | 年龄 | 职业 |
-| :--- | :---: | ---: |
-| 张三 | 25 | 程序员 |
-| 李四 | 30 | 设计师 |
-
-## 9.分隔线
-
-通过 3 个及以上 -、* 或 _ 表示分隔线，符号间可加空格。
-效果：
-上方内容
----
-下方内容
-***
-再下方内容
-
-## 10.脚注
-
-通过 /[/^标识/] 定义脚注，文末用 /[/^标识/]/: 脚注内容 解释。
-</code></pre>
+<h2 id="7-引用"><a href="#7-引用" class="headerlink" title="7.引用"></a>7.引用</h2><p>通过 &gt; 表示引用，可嵌套多层引用（多个 &gt; 叠加）。<br>效果：</p>
+<blockquote>
+<p>这是一级引用</p>
+<blockquote>
+<p>这是二级引用（嵌套在一级引用内）</p>
+<blockquote>
+<p>这是三级引用</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="8-表格"><a href="#8-表格" class="headerlink" title="8.表格"></a>8.表格</h2><p>通过 &#x2F;| 分隔列，&#x2F;- 分隔表头和内容，&#x2F;: 控制对齐方式（左对齐、居中、右对齐）。</p>
+<blockquote>
+<p><strong>语法</strong>：<br>&#x2F;| 姓名 &#x2F;| 年龄 &#x2F;| 职业 &#x2F;|<br>&#x2F;| &#x2F;:&#x2F;-&#x2F;-&#x2F;- &#x2F;| &#x2F;:&#x2F;-&#x2F;-&#x2F;-&#x2F;: &#x2F;| &#x2F;-&#x2F;-&#x2F;-&#x2F;: &#x2F;|<br>&#x2F;| 张三 &#x2F;| 25 &#x2F;| 程序员 &#x2F;|<br>&#x2F;| 李四 &#x2F;| 30 &#x2F;| 设计师 &#x2F;|<br>分别是左对齐、居中、右对齐。<br>效果：</p>
+<table>
+<thead>
+<tr>
+<th align="left">姓名</th>
+<th align="center">年龄</th>
+<th align="right">职业</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">张三</td>
+<td align="center">25</td>
+<td align="right">程序员</td>
+</tr>
+<tr>
+<td align="left">李四</td>
+<td align="center">30</td>
+<td align="right">设计师</td>
+</tr>
+</tbody></table>
+</blockquote>
+<h2 id="9-分隔线"><a href="#9-分隔线" class="headerlink" title="9.分隔线"></a>9.分隔线</h2><h2 id="通过-3-个及以上-、-或-表示分隔线，符号间可加空格。效果：上方内容"><a href="#通过-3-个及以上-、-或-表示分隔线，符号间可加空格。效果：上方内容" class="headerlink" title="通过 3 个及以上 -、* 或 _ 表示分隔线，符号间可加空格。效果：上方内容"></a>通过 3 个及以上 -、* 或 _ 表示分隔线，符号间可加空格。<br>效果：<br>上方内容</h2><p>下方内容</p>
+<hr>
+<p>再下方内容</p>
+<h2 id="10-脚注"><a href="#10-脚注" class="headerlink" title="10.脚注"></a>10.脚注</h2><p>通过 &#x2F;[&#x2F;^标识&#x2F;] 定义脚注，文末用 &#x2F;[&#x2F;^标识&#x2F;]&#x2F;: 脚注内容 解释。</p>
 
           
         
